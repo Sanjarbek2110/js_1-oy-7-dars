@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Time</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="backdrop-blur-0 bg-[url('./1.png')] bg-no-repeat bg-cover w-[100%] h-[100%] py-[237px]">
+
+    <div class="flex items-center gap-[57px] w-[860px] justify-center mx-auto py-[33px] px-[35px] rounded-[5px] backdrop-blur-[380px] bg-[url('./2.png')] bg-no-repeat bg-cover">
+
+        <div class="rounded-[9px] shadow-[8px_9px_22px_1px_rgba(0,0,0,0.6)] bg-[rgba(5,5,5,0.9)] flex flex-col justify-center gap-[16px] text-white w-[33.33%] pt-[20px] px-[62px] pb-[32px] text-center">
+            <span id="hours" class="text-[90px]"></span>
+            <p class="text-[19px]">Hours</p>
+        </div>
+
+        <div class="rounded-[9px] bg-[#c76e21] flex flex-col justify-center gap-[16px] text-white w-[33.33%] pt-[20px] px-[62px] pb-[32px] text-center">
+            <span id="minutes" class="text-[90px]"></span>
+            <p class="text-[19px]">Minutes</p>
+        </div>
+
+        <div class="rounded-[9px] shadow-[8px_9px_22px_1px_rgba(0,0,0,0.6)] bg-[rgba(5,5,5,0.9)] flex flex-col justify-center gap-[16px] text-white w-[33.33%] pt-[20px] px-[62px] pb-[32px] text-center">
+            <span id="seconds" class="text-[90px]"></span>
+            <p class="text-[19px]">Seconds</p>
+        </div>
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
